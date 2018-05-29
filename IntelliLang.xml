@@ -4,5 +4,9 @@
       <display-name>application</display-name>
       <place><![CDATA[xmlTag().withLocalName(string().equalTo("application"))]]></place>
     </injection>
+    <injection language="JAVA" injector-id="xml">
+      <display-name>manifest</display-name>
+      <place><![CDATA[xmlTag().withLocalName(string().equalTo("manifest"))]]></place>
+    </injection>
   </component>
 </application>
